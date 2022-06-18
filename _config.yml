@@ -6,15 +6,6 @@ copyright:             © 2021. All rights reserved.
 favicon: /assets/img/favicon.ico
 apple_touch_icon: /assets/img/me.png
 
-menu: # 사이드 바 메뉴입니다.
-  - title: Profile
-    url:   /profile/
-  - title: Projects
-    url:   /projects/
-  - title: Blog
-    url:   /blog/
-  - title: "Tistory"
-    url:   https://breathof.tistory.com/
 author:
   picture:  /assets/img/me.png
   name:  Ryu soohyeon
@@ -38,6 +29,31 @@ theme_color:           rgb(199,175,152) # rgb(25,55,71)
   #       accent_image: /assets/img/hydejack-bg.jpg
   #       accent_color: rgb(38,139,210)
   # 
+
+menu: # 사이드 바 메뉴입니다.
+  - title: Profile
+    url:   /profile/
+  - title: Projects
+    url:   /projects/
+  - title: Blog
+    url:   /blog/
+  - title: "Tistory"
+    url:   https://breathof.tistory.com/
+
+blog: # 카테고리 입니다! 이녀석들이 있어야 원하는 카테고리만 list로 만들 수 있대요.
+  make_git_blog:
+    permalink:         /make git blog/
+    output:            true
+  git_study:
+    permalink:         /git study/
+    output:            true
+projects:
+  mdma:
+    permalink:         /mdma/
+    output:            true
+  baroutine:
+    permalink:         /baroutine/
+    output:            true
 
 google_fonts:          Roboto+Slab:700|Noto+Sans:400,400i,700,700i
 font:                  Noto Sans, Helvetica, Arial, sans-serif
