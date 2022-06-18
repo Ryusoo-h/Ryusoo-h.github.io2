@@ -3,9 +3,18 @@ url:                   https://ryusoo-h.github.io/
 lang:                  ko
 title:                 Ryusoo-h
 copyright:             © 2021. All rights reserved.
-favicon: /favicon.ico
+favicon: /assets/img/favicon.ico
 apple_touch_icon: /assets/img/me.png
 
+menu: # 사이드 바 메뉴입니다.
+  - title: Profile
+    url:   /profile/
+  - title: Projects
+    url:   /projects/
+  - title: Blog
+    url:   /blog/
+  - title: "Tistory"
+    url:   https://breathof.tistory.com/
 author:
   picture:  /assets/img/me.png
   name:  Ryu soohyeon
@@ -20,7 +29,6 @@ author:
 accent_image:          /assets/img/sidebar-bg-slik.jpg
 accent_color:          rgb(243,213,105) # rgb(79,177,186)
 theme_color:           rgb(199,175,152) # rgb(25,55,71)
-
   # 각 페이지에 대해 고유한 문양을 만드는 방법
   #
   # defaults:
