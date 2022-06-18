@@ -1,10 +1,35 @@
-lang:                  en
-title:                 Hydejack
+
+url:                   https://ryusoo-h.github.io/
+lang:                  ko
+title:                 Ryusoo-h
 copyright:             © 2021. All rights reserved.
+favicon: /favicon.ico
+apple_touch_icon: /assets/img/me.png
+
+author:
+  picture:  /assets/img/me.png
+  name:  Ryu soohyeon
+  email: su1324@naver.com
+  about: |
+    깃 공부와 함께 깃블로그를 테스트 하고 있습니다.
+  social:
+      twitter: milkutea_nn
+      github:  Ryusoo-h
+      email: su1324@naver.com
 
 accent_image:          /assets/img/sidebar-bg-slik.jpg
-accent_color:          rgb(79,177,186)
-theme_color:           rgb(25,55,71)
+accent_color:          rgb(243,213,105) # rgb(79,177,186)
+theme_color:           rgb(199,175,152) # rgb(25,55,71)
+
+  # 각 페이지에 대해 고유한 문양을 만드는 방법
+  #
+  # defaults:
+  #   - scope:
+  #       path:         hydejack/
+  #     values:
+  #       accent_image: /assets/img/hydejack-bg.jpg
+  #       accent_color: rgb(38,139,210)
+  # 
 
 google_fonts:          Roboto+Slab:700|Noto+Sans:400,400i,700,700i
 font:                  Noto Sans, Helvetica, Arial, sans-serif
@@ -81,3 +106,4 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-avatar
