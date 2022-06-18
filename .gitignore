@@ -5,6 +5,6 @@ vendor
 .jekyll-metadata
 .jekyll-cache
 *.gem
-
+_site
 #<removed/js>
 #<removed/css>
