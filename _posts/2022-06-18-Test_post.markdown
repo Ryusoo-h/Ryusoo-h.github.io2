@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "게시글 테스트"
+date:   2022-06-18 20:18:58 +0900
+categories: Ryusoo-h update
+---
+이 글은 `_posts` 폴더에 쓰여있습니다!
+
+폴더명 format: `YEAR-MONTH-DAY-title.MARKUP`
+`YEAR` 4자리 숫자, `MONTH`,`DAY` 2자리 숫자, `MARKUP` 파일 확장자
+
+테마 사이트 링크 [hydejack](https://hydejack.com/)
