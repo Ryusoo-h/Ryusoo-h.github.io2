@@ -40,14 +40,16 @@ menu: # 사이드 바 메뉴입니다.
   - title: "Tistory"
     url:   https://breathof.tistory.com/
 
-blog: # 카테고리 입니다! 이녀석들이 있어야 원하는 카테고리만 list로 만들 수 있대요.
-  make_git_blog:
+collections: # 카테고리 입니다! 이녀석들이 있어야 원하는 카테고리만 list로 만들 수 있대요.
+  featured_categories:
+    permalink:         /blog/
+    output:            true
+  featured_tags:
     permalink:         /make git blog/
     output:            true
   git_study:
     permalink:         /git study/
     output:            true
-projects:
   mdma:
     permalink:         /mdma/
     output:            true
