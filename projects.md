@@ -1,5 +1,5 @@
 ---
-permalink: /projects
+permalink: /projects/
 layout: list
 title:  projects
 slug:   projects

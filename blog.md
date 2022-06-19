@@ -1,5 +1,5 @@
 ---
-permalink: /blog
+permalink: /blog/
 layout: list
 title:  blog
 slug:   blog
