@@ -1,5 +1,5 @@
 ---
-permalink: /projects/baroutine
+permalink: /projects/baroutine/
 layout: list
 title:  baroutine
 slug:   baroutine

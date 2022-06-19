@@ -1,5 +1,5 @@
 ---
-permalink: /blog/make_git_blog
+permalink: /blog/make_git_blog/
 layout: list
 title:  make_git_blog
 slug:   make_git_blog
