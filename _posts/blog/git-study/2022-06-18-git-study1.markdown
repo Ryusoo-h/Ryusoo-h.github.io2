@@ -2,8 +2,8 @@
 layout: post
 title:  "테스트 - 깃공부하기"
 date:   2022-06-18 20:18:58 +0900
-categories: [blog, git study]
-tags:       [blog, git study]
+categories: [blog, git_study]
+tags:       [blog, git_study]
 toc_sticky: true
 ---
 테스트를 위한 글입니다. 테스트하면서 톡톡히 공부가 되는군요
