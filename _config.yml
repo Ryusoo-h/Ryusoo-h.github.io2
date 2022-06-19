@@ -41,14 +41,14 @@ menu: # 사이드 바 메뉴입니다.
     url:   https://breathof.tistory.com/
 
 collections: # 카테고리 입니다! 이녀석들이 있어야 원하는 카테고리만 list로 만들 수 있대요.
-  featured_categories:
+  blog:
     permalink:         /blog/
     output:            true
-  featured_tags:
-    permalink:         /make git blog/
+  make_git_blog:
+    permalink:         /make_git_blog/
     output:            true
   git_study:
-    permalink:         /git study/
+    permalink:         /git_study/
     output:            true
   mdma:
     permalink:         /mdma/
@@ -56,6 +56,10 @@ collections: # 카테고리 입니다! 이녀석들이 있어야 원하는 카�
   baroutine:
     permalink:         /baroutine/
     output:            true
+
+toc: true
+toc_sticky: true
+no_break_layout: false
 
 google_fonts:          Roboto+Slab:700|Noto+Sans:400,400i,700,700i
 font:                  Noto Sans, Helvetica, Arial, sans-serif

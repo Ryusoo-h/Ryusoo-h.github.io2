@@ -1,11 +1,9 @@
 ---
 permalink: /blog/
-layout: list
+layout: blog-list
 title:  blog
 slug:   blog
 menu:   true
-description: >
-  블로그 입니다
 ---
 
 
@@ -26,6 +24,5 @@ description: >
 </style>
 
 <div class="container">
-  <h1>블로그 페이지</h1>
-  <p>조금씩 알아가는 중..! layout을 활용하는 방법을 알고싶다..!</p>
+  <p>추가중..! 카테고리별로 출력할 수 있게 만들예정..</p>
 </div>
