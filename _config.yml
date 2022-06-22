@@ -7,7 +7,6 @@ favicon: /assets/img/favicon.ico
 apple_touch_icon: /assets/img/me.png
 
 author:
-  picture:  /assets/img/me.png
   name:  Ryu soohyeon
   email: su1324@naver.com
   about: |
@@ -16,6 +15,7 @@ author:
       twitter: milkutea_nn
       github:  Ryusoo-h
       email: su1324@naver.com
+  picture:  /assets/img/me.png
 
 accent_image:          /assets/img/sidebar-bg-slik.jpg
 accent_color:          rgb(243,213,105) # rgb(79,177,186)

@@ -1,10 +1,27 @@
 <div class="sidebar-sticky">
   <div class="sidebar-about">
+    <!-- 
+    site.logo를 못가져 오니까 이미지 출력을 못하는거같아서
     {% if site.logo %}
       <a class="no-hover" href="{{ '/' | relative_url }}" tabindex="-1">
         <img src="{% include_cached smart-url url=site.logo %}" class="avatar" alt="{{ site.short_title | default:site.title }}" width="120" height="120" loading="lazy" />
       </a>
     {% endif %}
+
+    아래 a태그로 직접 출력함
+    <a class="no-hover" href="{{ '/' | relative_url }}" tabindex="-1">
+      <img src="{{ '/assets/img/me.png' | relative_url }}" class="avatar" alt="{{ site.short_title | default:site.title }}" width="120" height="120" loading="lazy" />
+    </a>
+    --> 
+    <a class="no-hover" href="{{ '/' | relative_url }}" tabindex="-1">
+      {% if author.picture %}
+        {% include_cached components/hy-img.html class="avatar" img=author.picture alt=author.name width="120" height="120" %}
+      {% elsif plugins contains 'jekyll-avatar' %}
+        {% assign avatar = author.social.github | default:author.github.username | default:author.github  %}
+        {% include components/avatar-tag.html user=avatar %}
+      {% endif %}
+    </a>
+
     <a class="sidebar-title" href="{{ '/' | relative_url }}"><h2 class="h1">{{ site.short_title | default:site.title }}</h2></a>
     {% assign text = site.tagline | default:site.description %}
     {% if text %}
